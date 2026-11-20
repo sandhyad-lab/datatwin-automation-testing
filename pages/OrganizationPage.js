@@ -32,7 +32,7 @@ const RAW_TABS = {
         dropdowns: ['Organization Type', 'Organization Group'],
         // data to type / select when filling the tab (taken from the screenshot)
         values: {
-            'Organization Name': 'Sandhya to be deleted',
+            'Organization Name': 'Sandhya to be deleted new',
             'Organization Type': 'Non-MSME',
             'Organization Group': 'Technology',
             'Addl Email ID': 'sandhya.d@cloudhalotech.com',

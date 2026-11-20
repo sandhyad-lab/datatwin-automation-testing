@@ -17,7 +17,7 @@ import { INTERNAL_PLAN_FILE } from '../pages/InternalPlanData.js';
  */
 const SEARCH = {
     filters: {
-        organizationName: 'Data Pvt Ltd',
+        organizationName: 'Demo Industrial Works Pvt. Ltd',
         ipNumber: 'last', // the newest IP is normally at the end of the list
         vendorName: '',
         vendorId: '',

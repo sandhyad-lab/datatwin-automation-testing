@@ -148,13 +148,13 @@ export class UploadV4Page {
         const seen = await this.page
             .evaluate(() => {
                 const out = new Set();
-                document.querySelectorAll('label, .MuiInputLabel-root, .MuiFormLabel-root').forEach(el => {
+                document.querySelectorAll('label, .MuiInputLabel-root, .MuiFormLabel-root, .MuiTypography-caption, span[aria-label]').forEach(el => {
                     if (el.offsetParent && el.innerText.trim()) out.add(el.innerText.trim());
                 });
                 document.querySelectorAll('input[placeholder]').forEach(el => {
                     if (el.offsetParent && el.placeholder.trim()) out.add(`placeholder: ${el.placeholder.trim()}`);
                 });
-                return [...out].slice(0, 30);
+                return [...out].slice(0, 60);
             })
             .catch(() => []);
 

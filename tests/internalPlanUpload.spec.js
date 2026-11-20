@@ -16,7 +16,7 @@ import { INTERNAL_PLAN_FILE } from '../pages/InternalPlanData.js';
  * If no option matches, the error lists every option in the dropdown.
  */
 const INTERNAL_PLAN = {
-    company: 'Data Pvt Ltd',
+    company: 'SAJEEPA BHARATH INFRA PRIVATE LIMITED',
     transactionType: 'InternalPlan',
     // Theme: the first option in the list is selected
     // The file to upload AND to validate against: set in pages/InternalPlanData.js
